@@ -1,2 +1,4 @@
 # PortfolioSite
-My Portfolio Site
+My Portfolio Website
+
+Powered by Wordpress
