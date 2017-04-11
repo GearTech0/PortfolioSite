@@ -1,0 +1,68 @@
+body
+{
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+.ptfio-header
+{
+  /*background-color: #212121;*/
+  background-image: url('../technicalportfolio/images/rebel.png');
+  background-repeat: repeat;
+  color: white;
+
+  /* For Testing Purposes */
+  padding: 25px;
+}
+
+.ptfio-body
+{
+  color: black;
+
+  /* For Testing Purposes */
+  padding: 25px;
+}
+
+.ptfio-footer
+{
+  background-image: url('../technicalportfolio/images/rebel.png');
+  background-repeat: repeat;
+  color: white;
+
+  /* For Testing Purposes */
+  padding: 25px;
+}
+
+.ptfio-post
+{
+  background-color: #fafafa;
+  box-shadow: 1px 1px 5px #e0e0e0;
+  padding: 25px;
+  padding-top: 30px;
+  margin: 25px;
+  margin-top: 0px;
+}
+
+.front-spacer
+{
+  display: inline;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.title
+{
+  font-size: 11pt;
+  font-family: verdana;
+  font-weight: bold;
+}
+
+#main
+{
+  background-color: #ebebeb;
+}
+
+#delimiter
+{
+  clear: both;
+}
