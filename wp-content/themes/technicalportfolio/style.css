@@ -1,7 +1,20 @@
+*
+{
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
 body
 {
   text-align: center;
   font-family: 'Roboto', sans-serif;
+}
+
+.front-spacer
+{
+  display: inline;
+  padding-left: 25px;
+  padding-right: 25px;
 }
 
 .ptfio-header
@@ -9,6 +22,10 @@ body
   /*background-color: #212121;*/
   background-image: url('../technicalportfolio/images/rebel.png');
   background-repeat: repeat;
+
+  -webkit-filter: brightness(200%); /* Safari */
+  filter: brightness(200%);
+
   color: white;
 
   /* For Testing Purposes */
@@ -41,13 +58,6 @@ body
   padding-top: 30px;
   margin: 25px;
   margin-top: 0px;
-}
-
-.front-spacer
-{
-  display: inline;
-  padding-left: 25px;
-  padding-right: 25px;
 }
 
 .title
