@@ -6,8 +6,13 @@ body
 
 .ptfio-header
 {
-  background-image: url('../technicalportfolio/images/blackorchid.png');
+  /*background-color: #212121;*/
+  background-image: url('../images/rebel.png');
   background-repeat: repeat;
+
+  -webkit-filter: brightness(200%); /* Safari */
+  filter: brightness(200%);
+
   color: white;
 
   /* For Testing Purposes */
@@ -24,7 +29,8 @@ body
 
 .ptfio-footer
 {
-  background-color: #212121;
+  background-image: url('../images/rebel.png');
+  background-repeat: repeat;
   color: white;
 
   /* For Testing Purposes */
